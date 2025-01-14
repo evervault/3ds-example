@@ -7,12 +7,12 @@
   },
   "dependencies": {
     "@evervault/browser": "^2.9.0",
-    "sweetalert2": "^11.14.1",
+    "sweetalert2": "^11.15.10",
     "vite-plugin-vercel": "^9.0.3"
   },
   "devDependencies": {
     "@types/node": "^22.7.4",
     "typescript": "^5.0.2",
-    "vite": "^4.5.3"
+    "vite": "^4.5.5"
   }
 }
