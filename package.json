@@ -1,0 +1,18 @@
+{
+  "name": "example-custom-theme",
+  "private": true,
+  "version": "0.0.12",
+  "scripts": {
+    "dev": "vite --port 4000"
+  },
+  "dependencies": {
+    "@evervault/browser": "^2.9.0",
+    "sweetalert2": "^11.14.1",
+    "vite-plugin-vercel": "^9.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "typescript": "^5.0.2",
+    "vite": "^4.5.3"
+  }
+}
