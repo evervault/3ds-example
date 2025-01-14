@@ -4,8 +4,6 @@ const apiKey = process.env.EVERVAULT_API_KEY;
 export async function POST(request: Request) {
   const { number, expiry, brand } = await request.json();
 
-  console.log(number, expiry, brand);
-
   const threeDSPayload = {
     "merchant": {
       "name": "Everair",
@@ -32,7 +30,6 @@ export async function POST(request: Request) {
         'Authorization': `Basic ${btoa(appId + ':' + apiKey)}`,
     }
   });
-
-  console.log(JSON.stringify(threeDSPayload));
+  
   return threeDSSession;
 }
