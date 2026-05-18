@@ -13,12 +13,13 @@
   "devDependencies": {
     "@types/node": "^24.9.2",
     "typescript": "^5.9.3",
-    "vite": "^7.1.12"
+    "vite": "^7.3.3"
   },
   "pnpm": {
     "overrides": {
       "path-to-regexp": "^6.3.0",
-      "esbuild": "^0.25.0"
+      "esbuild": "^0.25.0",
+      "tar": "^7.5.2"
     }
   }
 }
